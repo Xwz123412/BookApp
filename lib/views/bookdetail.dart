@@ -1,6 +1,9 @@
 import 'package:blocpattern/model/book.dart';
 import 'package:flutter/material.dart';
 
+        
+     
+
 class BookDetail extends StatelessWidget {
   final Book book;
 
@@ -10,6 +13,7 @@ class BookDetail extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.purple.shade50,
         leading: IconButton(
           icon: Icon(Icons.arrow_back),
           onPressed: () {

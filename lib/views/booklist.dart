@@ -29,18 +29,18 @@ class BookList extends StatelessWidget {
                   child: Column(
                     children: [
                       Image.asset(book.imageUrl, width: 800, height: 180), // Book image
-                      SizedBox(height: 8),
-                      Text(
-                        book.title,
-                        style: TextStyle(fontWeight: FontWeight.bold),
-                        textAlign: TextAlign.center,
-                      ),
-                      SizedBox(height: 4),
-                      Text(
-                        book.author,
-                        style: TextStyle(color: Colors.grey),
-                        textAlign: TextAlign.center,
-                      ),
+                      // SizedBox(height: 8),
+                      // Text(
+                      //   book.title,
+                      //   style: TextStyle(fontWeight: FontWeight.bold),
+                      //   textAlign: TextAlign.center,
+                      // ),
+                      // SizedBox(height: 4),
+                      // Text(
+                      //   book.author,
+                      //   style: TextStyle(color: Colors.grey),
+                      //   textAlign: TextAlign.center,
+                      // ),
                     ],
                   ),
                 ),
